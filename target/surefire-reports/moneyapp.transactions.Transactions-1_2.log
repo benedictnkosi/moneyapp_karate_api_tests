@@ -1,0 +1,169 @@
+16:32:48.507 request:
+1 > GET http://localhost/gettransactionnames/Personal%20Expenses/20/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+16:32:48.723 response time in milliseconds: 215.82
+1 < 200
+1 < Connection: Keep-Alive
+1 < Content-Length: 1411
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 06 Oct 2019 14:32:48 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9
+1 < X-Powered-By: PHP/7.3.9
+[{"value":539,"text":"ATM and Cash"},{"value":540,"text":"Bank Charges and Fees"},{"value":541,"text":"Cellphone"},{"value":542,"text":"Children and Dependants"},{"value":543,"text":"Clothing and Shoes"},{"value":594,"text":"Data Bundles"},{"value":544,"text":"Donations to Charity"},{"value":545,"text":"Eating Out and Takeouts"},{"value":546,"text":"Electricity"},{"value":547,"text":"Electronics and Appliances"},{"value":548,"text":"Entertainment"},{"value":597,"text":"FNB Legal Insurance"},{"value":549,"text":"Furniture"},{"value":550,"text":"General Purchases"},{"value":551,"text":"Gifts"},{"value":552,"text":"Groceries"},{"value":553,"text":"Health and Medical"},{"value":554,"text":"Holidays and Travel"},{"value":555,"text":"Home and Garden"},{"value":556,"text":"Home Renovations"},{"value":558,"text":"Insurance"},{"value":559,"text":"Interest"},{"value":560,"text":"Internet and Telephone"},{"value":561,"text":"Laundry"},{"value":562,"text":"Leisure and Sport"},{"value":592,"text":"Parking"},{"value":563,"text":"Personal Care"},{"value":564,"text":"Pets"},{"value":565,"text":"Professional Services"},{"value":557,"text":"Rates & Tax"},{"value":566,"text":"Rent"},{"value":567,"text":"Salaries and Wages"},{"value":568,"text":"Supper and lunch"},{"value":569,"text":"Tax"},{"value":570,"text":"Transport and Fuel"},{"value":571,"text":"Uncategorised"},{"value":572,"text":"Vehicle Expenses"}]
+
+16:32:48.725 [print] [
+  {
+    "value": 539,
+    "text": "ATM and Cash"
+  },
+  {
+    "value": 540,
+    "text": "Bank Charges and Fees"
+  },
+  {
+    "value": 541,
+    "text": "Cellphone"
+  },
+  {
+    "value": 542,
+    "text": "Children and Dependants"
+  },
+  {
+    "value": 543,
+    "text": "Clothing and Shoes"
+  },
+  {
+    "value": 594,
+    "text": "Data Bundles"
+  },
+  {
+    "value": 544,
+    "text": "Donations to Charity"
+  },
+  {
+    "value": 545,
+    "text": "Eating Out and Takeouts"
+  },
+  {
+    "value": 546,
+    "text": "Electricity"
+  },
+  {
+    "value": 547,
+    "text": "Electronics and Appliances"
+  },
+  {
+    "value": 548,
+    "text": "Entertainment"
+  },
+  {
+    "value": 597,
+    "text": "FNB Legal Insurance"
+  },
+  {
+    "value": 549,
+    "text": "Furniture"
+  },
+  {
+    "value": 550,
+    "text": "General Purchases"
+  },
+  {
+    "value": 551,
+    "text": "Gifts"
+  },
+  {
+    "value": 552,
+    "text": "Groceries"
+  },
+  {
+    "value": 553,
+    "text": "Health and Medical"
+  },
+  {
+    "value": 554,
+    "text": "Holidays and Travel"
+  },
+  {
+    "value": 555,
+    "text": "Home and Garden"
+  },
+  {
+    "value": 556,
+    "text": "Home Renovations"
+  },
+  {
+    "value": 558,
+    "text": "Insurance"
+  },
+  {
+    "value": 559,
+    "text": "Interest"
+  },
+  {
+    "value": 560,
+    "text": "Internet and Telephone"
+  },
+  {
+    "value": 561,
+    "text": "Laundry"
+  },
+  {
+    "value": 562,
+    "text": "Leisure and Sport"
+  },
+  {
+    "value": 592,
+    "text": "Parking"
+  },
+  {
+    "value": 563,
+    "text": "Personal Care"
+  },
+  {
+    "value": 564,
+    "text": "Pets"
+  },
+  {
+    "value": 565,
+    "text": "Professional Services"
+  },
+  {
+    "value": 557,
+    "text": "Rates & Tax"
+  },
+  {
+    "value": 566,
+    "text": "Rent"
+  },
+  {
+    "value": 567,
+    "text": "Salaries and Wages"
+  },
+  {
+    "value": 568,
+    "text": "Supper and lunch"
+  },
+  {
+    "value": 569,
+    "text": "Tax"
+  },
+  {
+    "value": 570,
+    "text": "Transport and Fuel"
+  },
+  {
+    "value": 571,
+    "text": "Uncategorised"
+  },
+  {
+    "value": 572,
+    "text": "Vehicle Expenses"
+  }
+]
+

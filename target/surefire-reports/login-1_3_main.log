@@ -1,0 +1,23 @@
+16:07:41.122 [print] http://localhost
+16:07:41.131 request:
+1 > GET http://localhost/login/demo/invalid/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+16:07:41.309 response time in milliseconds: 172.03
+1 < 200
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 57
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 06 Oct 2019 14:07:41 GMT
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Pragma: no-cache
+1 < Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9
+1 < Set-Cookie: PHPSESSID=ugjf611b064s043t043g6ef5im; path=/
+1 < X-Powered-By: PHP/7.3.9
+{"status":2,"message":"Login failed, incorrect password"}
+

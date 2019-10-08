@@ -1,0 +1,24 @@
+15:59:45.399 [print] http://localhost
+15:59:45.418 request:
+1 > GET http://localhost/login/invalid/pass/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+15:59:45.612 response time in milliseconds: 193.49
+1 < 200
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 50
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Sun, 06 Oct 2019 13:59:45 GMT
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < Pragma: no-cache
+1 < Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9
+1 < Set-Cookie: PHPSESSID=tvp57bvj968cb513o7448ommj4; path=/
+1 < X-Powered-By: PHP/7.3.9
+{"status":2,"message":"This user does not exist."}
+
+15:45:31.406 assertion failed: path: $.message, actual: 'This user does not exist.', expected: 'This user does not exist', reason: not equal

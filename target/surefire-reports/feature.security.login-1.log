@@ -1,0 +1,25 @@
+17:24:29.928 karate.env system property was: null 
+17:24:30.776 request:
+1 > GET http://sixtyfive.co.za/preprod/application/getuser/benzo/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: sixtyfive.co.za
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+17:24:31.662 response time in milliseconds: 878.89
+1 < 200
+1 < Cache-Control: [max-age=0, public]
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Mon, 30 Sep 2019 15:24:32 GMT
+1 < Expires: Mon, 30 Sep 2019 15:24:32 GMT
+1 < Pragma: public
+1 < Server: nginx
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Accept-Encoding]
+1 < X-Backend-ip: 154.0.173.16
+1 < X-Cache-Status: BYPASS
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+{"username":"benzo","user_id":20}
+
